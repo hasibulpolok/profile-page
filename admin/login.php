@@ -4,8 +4,8 @@ session_start();
 
 if(isset($_POST['login'])){
 
-$user = $_POST['user'];
-$pass = $_POST['pass'];
+$user=$_POST['user'];
+$pass=$_POST['pass'];
 
 if($user=="admin" && $pass=="1234"){
 
@@ -27,7 +27,7 @@ echo "Login Failed";
 
 <input name="user" placeholder="Username">
 
-<input name="pass" type="password" placeholder="Password">
+<input type="password" name="pass" placeholder="Password">
 
 <button name="login">Login</button>
 

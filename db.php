@@ -1,9 +1,9 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","singlecrud");
+$conn = mysqli_connect("localhost","root","","profile_system");
 
 if(!$conn){
-die("Database Connection Failed");
+die("Database Failed");
 }
 
 ?>
