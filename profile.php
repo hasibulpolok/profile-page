@@ -34,14 +34,17 @@ $age=$today->diff($birth);
 <p>Father: <?php echo $r['father_name']; ?></p>
 
 <p>Profession: <?php echo $r['profession']; ?></p>
+<p>Profession 2: <?php echo $r['profession2']; ?></p>
 
-<p>Address: <?php echo $r['address']; ?></p>
+<p>Phone: <?php echo $r['phone']; ?></p>
 
-<p>NID: <?php echo $r['nid']; ?></p>
+<p>Email: <?php echo $r['email']; ?></p>
 
-<p>Passport: <?php echo $r['passport']; ?></p>
+<p>Job Status: <?php echo $r['job_status']; ?></p>
 
-<p>License: <?php echo $r['license']; ?></p>
+<p>Website: <?php echo $r['website']; ?></p>
+
+<a href="<?php echo $r['facebook']; ?>">Facebook</a>
 
 <p>
 
