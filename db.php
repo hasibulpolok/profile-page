@@ -3,7 +3,7 @@
 $conn = mysqli_connect("localhost","root","","singlecrud");
 
 if(!$conn){
-die("Connection Failed");
+die("Database Connection Failed");
 }
 
 ?>
